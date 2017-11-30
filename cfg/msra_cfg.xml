@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE boost_serialization>
+<boost_serialization signature="serialization::archive" version="9">
+<VOCUS2_Cfg class_id="0" tracking_level="0" version="0">
+	<c_space>1</c_space>
+	<fuse_feature>0</fuse_feature>
+	<fuse_conspicuity>0</fuse_conspicuity>
+	<pyr_struct>2</pyr_struct>
+	<start_layer>0</start_layer>
+	<stop_layer>4</stop_layer>
+	<center_sigma>3</center_sigma>
+	<surround_sigma>13</surround_sigma>
+	<n_scales>2</n_scales>
+	<normalize>1</normalize>
+</VOCUS2_Cfg>
