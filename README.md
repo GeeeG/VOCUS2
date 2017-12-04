@@ -1,7 +1,7 @@
 # VOCUS2 computational visual saliency system
 This program computes a saliency map for a given input image or video.
 
-Input|Output
+Input: RGB image|Output: Saliency map
 ------------ | -------------
 ![Input](/images/test-image-MSRA-3_97_97769.jpg?raw=true) | ![Saliency map](/images/test-image-MSRA-3_97_97769_saliency.png?raw=true)
 
