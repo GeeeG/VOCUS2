@@ -1,6 +1,10 @@
 # VOCUS2 computational visual saliency system
 This program computes a saliency map for a given input image or video.
 
+Input|Output
+------------ | -------------
+![Input]((/images/test-image-MSRA-3_97_97769.jpg?raw=true) | ![Saliency map]((/images/test-image-MSRA-3_97_97769_saliency.jpg?raw=true)
+
 A detailed description may be found in the following publication:
 "Traditional Saliency Reloaded: A Good Old Model in New Shape", S. Frintrop, T. Werner, G. Martin Garcia, in Proceedings of the IEEE International Conference on Computer Vision and Pattern Recognition (CVPR), 2015.
 
