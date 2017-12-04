@@ -20,9 +20,10 @@ BiBTeX:
 This software was implemented by Thomas Werner, designed and supervised by Simone Frintrop.
 
 ## 1. Installation requirements
-gcc VER 4.7 
-OpenCV VER 2.4.7 or higher is required. (Download: http://opencv.org/downloads.html)
-Boost C++ libraries VER 1.46.1 (http://www.boost.org/)
+* gcc 4.7 
+* OpenCV 2.4.7 or higher
+* Boost C++ libraries 1.46.1
+
 This code was tested on Linux Machines only.
 
 
