@@ -48,9 +48,13 @@ A call of `./vocus2 -h` will show a list of all tunable parameters along with th
 ```
 ./vocus2 [parameters] test_img.png
 ```
-To process a set of images, a series of file names can be given to the program:
+To process a set of images, a series of file names can be given to the program.
+To use all images in directory `/img`:
 ```
-./vocus2 [parameters] img/*.png (to use all images in directory /img) or 
+./vocus2 [parameters] img/*.png
+```
+Or specify files separately:
+```
 ./vocus2 [parameters] img/img1.png img/img2.png ...
 ```
 Without a specified output path, the corresponding saliency maps are written to `img/saliency/<imageName>_saliency.png`.
