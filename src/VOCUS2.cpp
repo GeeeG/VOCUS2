@@ -834,7 +834,7 @@ vector<Mat> VOCUS2::prepare_input(const Mat& img){
 	if(cfg.c_space == LAB){
 		Mat converted;
 		// convert colorspace (important: before conversion to float to keep range [0:255])
-		cvtColor(img, converted, CV_BGR2Lab);
+		cvtColor(img, converted, cv::COLOR_BGR2Lab);
 		// convert to float
 		converted.convertTo(converted, CV_32FC3);
 		// scale down to range [0:1]
