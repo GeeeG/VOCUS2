@@ -108,8 +108,10 @@ public:
 	bool load(string f_name){
 		std::ifstream conf_file(f_name);
 		if (conf_file.good()) {
-			boost::archive::xml_iarchive ia(conf_file);
-			ia >> boost::serialization::make_nvp("VOCUS2_Cfg", *this);
+			{
+				boost::archive::xml_iarchive ia(conf_file);
+				ia >> boost::serialization::make_nvp("VOCUS2_Cfg", *this);
+			}
 			conf_file.close();
 			return true;
 		}
@@ -121,8 +123,10 @@ public:
 	bool save(string f_name){
 		std::ofstream conf_file(f_name);
 		if (conf_file.good()) {
-			boost::archive::xml_oarchive oa(conf_file);
-			oa << boost::serialization::make_nvp("VOCUS2_Cfg", *this);
+			{
+				boost::archive::xml_oarchive oa(conf_file);
+				oa << boost::serialization::make_nvp("VOCUS2_Cfg", *this);
+			}
 			conf_file.close();
 			return true;
 		}
